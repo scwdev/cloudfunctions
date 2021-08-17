@@ -1,4 +1,4 @@
-module.exports = (request, response) => {
+module.exports = ( request, response ) => {
     response.json({
         body: request.body,
         headers: request.headers,
